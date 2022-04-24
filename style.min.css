@@ -37,6 +37,22 @@ img {
     height: auto;
 }
 
+#bnnr{
+    height: 370px !important;
+}
+
+#mn-logo {
+    width: 180px;
+    height: 100px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.about-us{
+    font-size: 15px;
+    margin-top: -50px;
+}
+
 .fix {
     overflow: hidden
 }
