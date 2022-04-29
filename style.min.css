@@ -1,7 +1,9 @@
 body,
 html {
-    height: 100%
+    height: 100%;
+    background-color: rgb(255, 255, 255);
 }
+
 
 .floatleft {
     float: left
@@ -37,6 +39,7 @@ img {
     height: auto;
 }
 
+
 #bnnr{
     height: 370px !important;
 }
@@ -46,6 +49,125 @@ img {
     height: 100px;
     margin-top: -30px;
     margin-bottom: -30px;
+}
+/*=== Banner Section Style Two ===*/
+
+.banner-section.style-three .slide-item .title{
+	margin-top: 80px;
+}
+
+/*** 
+
+====================================================================
+			Banner Section Two
+====================================================================
+
+***/
+
+.banner-section-two{
+	position: relative;
+}
+
+.banner-section-two .shape-layer{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	z-index: 1;
+}
+
+.banner-section-two .images-carousel{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.banner-section-two .images-carousel .owl-nav{
+	display: none;
+}
+
+.banner-section-two .image-layer{
+	position:relative;
+	float: right;
+	top:0;
+	width:50%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner-section-two .content-box{
+	position: relative;
+	height: 700px;
+	width: 50%;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.banner-section-two .content{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	z-index: 9;
+}
+
+.banner-section-two .title{
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 1em;
+	font-weight: 500;
+	color: #353535;
+	margin-bottom: 30px;
+}
+
+.banner-section-two .title:before,
+.banner-section-two .title:after{
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	height: 3px;
+	width: 30%;
+	background-color: #ab7442;
+	content: "";
+	margin-left: 30px;
+}
+
+.banner-section-two .title:before{
+	left: auto;
+	right: 100%;
+	margin-right: 30px;
+	margin-left: 0;
+}
+
+.banner-section-two h2{
+	position: relative;
+	display: block;
+	font-size: 60px;
+	line-height: 1.2em;
+	color: #353535;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-family: 'PT Serif', serif;
+}
+
+.banner-section-two .text{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	line-height: 1.6em;
+	color: #353535;
+	font-weight: 500;
+	margin-bottom: 40px;
 }
 
 .about-us{
