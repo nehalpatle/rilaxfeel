@@ -243,6 +243,7 @@
 
 .title-border {
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .title-border::before {
@@ -252,7 +253,7 @@
     height: 2px;
     left: 0;
     position: absolute;
-    width: 50px;
+    width: 150px;
 }
 
 .section-title h2 {
