@@ -122,15 +122,23 @@ img {
     height: auto;
 }
 
-
 #bnnr{
     height: 370px !important;
 }
-
+.half-width li{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#menu{
+    font-size: 16px;
+}
+.tab-menu a{
+    font-size: 16px !important;
+}
 #mn-logo {
     width: 180px;
     height: 100px;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-bottom: -30px;
 }
 === Banner Section Style Two ===
@@ -552,7 +560,7 @@ pre {
     background: transparent none repeat scroll 0 0;
     color: #666;
     display: block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 45px;
     padding: 0 0 0 70px;
@@ -1599,12 +1607,44 @@ pre {
 }
 
 .heading-banner-area {
-    background: rgba(0, 0, 0, 0) url(img/bg/1.jpg) no-repeat scroll center center/cover
+    background: rgba(0, 0, 0, 0) url('img/11.jpg') no-repeat scroll center center/cover
 }
-
+.heading-banner-area1 {
+    background: rgba(0, 0, 0, 0) url('img/2.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area2 {
+    background: rgba(0, 0, 0, 0) url('img/3.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area3 {
+    background: rgba(0, 0, 0, 0) url('img/4.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area4 {
+    background: rgba(0, 0, 0, 0) url('img/5.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area5 {
+    background: rgba(0, 0, 0, 0) url('img/6.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area6 {
+    background: rgba(0, 0, 0, 0) url('img/7.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area7 {
+    background: rgba(0, 0, 0, 0) url('img/8.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area8 {
+    background: rgba(0, 0, 0, 0) url('img/9.jpg') no-repeat scroll center center/cover;
+    width: 1510px;
+}
 .heading-banner-title h2 {
     position: relative;
     color: #fff;
+    text-shadow: 0 2px 15px rgb(0, 0, 0);
     font-size: 45px;
     font-weight: 900;
     line-height: 33px;
