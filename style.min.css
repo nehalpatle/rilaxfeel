@@ -1279,7 +1279,8 @@ pre {
 
 .footer-area {
     background: rgb(233, 212, 181) !important;
-    padding: 120px 0 75px
+    padding: 120px 0 75px;
+    font-size: 17px;
 }
 
 .footer-title {
@@ -1288,7 +1289,8 @@ pre {
     line-height: 15px;
     margin-bottom: 25px;
     padding-bottom: 10px;
-    text-transform: uppercase
+    text-transform: uppercase;
+   
 }
 
 .footer-title.title-border::before {
@@ -1607,45 +1609,62 @@ pre {
 }
 
 .heading-banner-area {
-    background: rgba(0, 0, 0, 0) url('img/11.jpg') no-repeat scroll center center/cover
+    background: rgba(0, 0, 0, 0) url('img/image\ \(32\).png') no-repeat scroll center center/cover
 }
 .heading-banner-area1 {
-    background: rgba(0, 0, 0, 0) url('img/2.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(26\).png') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-area2 {
-    background: rgba(0, 0, 0, 0) url('img/3.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(25\).png') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-area3 {
-    background: rgba(0, 0, 0, 0) url('img/4.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(24\).png') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-area4 {
-    background: rgba(0, 0, 0, 0) url('img/5.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(27\).png') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-area5 {
-    background: rgba(0, 0, 0, 0) url('img/6.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(28\).png') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-area6 {
-    background: rgba(0, 0, 0, 0) url('img/7.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(29\).png') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-area7 {
-    background: rgba(0, 0, 0, 0) url('img/8.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(30\).png') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-area8 {
-    background: rgba(0, 0, 0, 0) url('img/9.jpg') no-repeat scroll center center/cover;
+    background: rgba(0, 0, 0, 0) url('img/image\ \(31\).png') no-repeat scroll center center/cover;
+    width: 1510px;
+}
+.heading-banner-area11 {
+    background: rgba(0, 0, 0, 0) url('img/111.jpg') no-repeat scroll center center/cover;
     width: 1510px;
 }
 .heading-banner-title h2 {
     position: relative;
     color: #fff;
-    text-shadow: 0 2px 15px rgb(0, 0, 0);
-    font-size: 45px;
+    text-shadow: 0 2px 12px rgb(253, 253, 253);
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 33px;
+    margin-bottom: 0;
+    margin-left: -700px;
+    padding: 134px 0 101px;
+    text-align: center;
+    text-transform: uppercase
+}
+.heading-banner-title1 h2 {
+    position: relative;
+    color: #fff;
+    text-shadow: 0 2px 12px rgb(253, 253, 253);
+    font-size: 70px;
     font-weight: 900;
     line-height: 33px;
     margin-bottom: 0;
