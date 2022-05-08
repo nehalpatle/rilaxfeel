@@ -1663,7 +1663,7 @@ pre {
 .heading-banner-title1 h2 {
     position: relative;
     color: rgb(196, 200, 87);
-    text-shadow: 0px 2px 5px rgb(250, 6, 6);
+    text-shadow: 0px 2px 5px rgb(248, 9, 9);
     font-size: 70px;
     font-weight: 900;
     line-height: 33px;
@@ -1672,6 +1672,39 @@ pre {
     text-align: center;
     text-transform: uppercase
 }
+
+ul.footerMenu li a,
+ul.socialIcons li a {
+    list-style: none;
+    display: inline-block;
+    color: #323232;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+ul.footerMenu li a {
+    font-size: 16px;
+    padding: 9px
+}
+/* 
+ul.socialIcons {
+    list-style: none;
+    color: #c8bca5;
+    padding-left: 10px;
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 0;
+} */
+
+ul.socialIcons li {
+    display: inline-block
+}
+
+ul.socialIcons li a {
+    font-size: 24px;
+    padding: 0 5px
+}
+
 
 .breadcumbs ul {
     overflow: hidden
