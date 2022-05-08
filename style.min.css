@@ -1649,8 +1649,8 @@ pre {
 }
 .heading-banner-title h2 {
     position: relative;
-    color: #fff;
-    text-shadow: 0 2px 12px rgb(253, 253, 253);
+    color: rgb(255, 226, 110);
+    text-shadow: 0px 2px 5px rgb(249, 22, 22);
     font-size: 70px;
     font-weight: 900;
     line-height: 33px;
@@ -1662,8 +1662,8 @@ pre {
 }
 .heading-banner-title1 h2 {
     position: relative;
-    color: #fff;
-    text-shadow: 0 2px 12px rgb(253, 253, 253);
+    color: rgb(255, 226, 110);
+    text-shadow: 0px 2px 5px rgb(249, 22, 22);
     font-size: 70px;
     font-weight: 900;
     line-height: 33px;
